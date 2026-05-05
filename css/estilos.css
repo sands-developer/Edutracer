@@ -1,0 +1,251 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #2c3e50;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* CONTENEDOR */
+.container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+/* BOTONES */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* FORMULARIOS */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* TABLAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* ALERTAS */
+.alerta {
+    color: red;
+    font-weight: bold;
+}
+
+/* FONDO CON OVERLAY */
+.fondo {
+    background: url('../img/fondo.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+/* CAPA OSCURA */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTENIDO CENTRADO */
+.contenido {
+    text-align: center;
+    color: white;
+}
+
+/* TÍTULO */
+.contenido h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+/* BOTONES GRANDES */
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn-grande {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    width: 300px;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.btn-grande:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* CONTENEDOR FORM */
+.form-container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+}
+
+
+.form-container input {
+    margin-bottom: 15px;
+}
+
+/* BOTÓN FORM */
+.btn-form {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-form:hover {
+    background-color: #2980b9;
+}
+
+/* BOTÓN VOLVER */
+.btn-volver {
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.tabla-container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 12px;
+    /*width: 80%;*/
+    margin: auto;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+
+.btn-small {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: #2ecc71;
+    color: white;
+    text-decoration: none;
+}
+
+td {
+    color: #2c3e50;
+    font-size: 15px;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+tr:hover td {
+    color: #000; 
+}
+
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+/* ESTADOS DE NOTAS */
+.estado-bajo {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.estado-medio {
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.estado-alto {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.form-container {
+    color: #2c3e50;
+}
